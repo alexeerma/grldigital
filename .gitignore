@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Claude / AI tooling
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# Dependencies and build tooling (not used at runtime)
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+.phpcs-cache
+.sass-cache/
+
+# Local dev files, logs, secrets, archives
+.dev/
+.env
+.env.*
+*.log
+*.zip

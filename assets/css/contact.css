@@ -1,0 +1,260 @@
+/*
+ * Contact popup + Contact Form 7 look.
+ * Built on the tokens from main.css. The look comes from dedicated grl-contact / grl-cf7 classes;
+ * .wpcf7-* classes are only targeted for plugin state (tips, response output, spinner).
+ */
+
+.grl-contact {
+	--grl-contact-frame: 12px;
+	--grl-contact-error: #9e1b1b;
+	--grl-contact-ok: #2d6a35;
+	width: min(680px, calc(100% - 2 * var(--grl-pad-x)));
+	max-width: none;
+	max-height: none;
+	margin: auto;
+	padding: 0 var(--grl-contact-frame) var(--grl-contact-frame) 0;
+	border: 0;
+	background: transparent;
+	color: var(--grl-black);
+	overflow: visible;
+}
+.grl-contact::backdrop { background: rgba(185, 176, 169, .92); }
+
+/* Offset frame behind the panel, same language as .grl-btn-frame. */
+.grl-contact::before {
+	content: "";
+	position: absolute;
+	inset: var(--grl-contact-frame) 0 0 var(--grl-contact-frame);
+	border: 3px solid var(--grl-white);
+	pointer-events: none;
+}
+.grl-contact__panel {
+	position: relative;
+	max-height: calc(100dvh - 48px - var(--grl-contact-frame));
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	padding: 56px 56px 48px;
+	background: var(--grl-white);
+}
+.grl-contact[open] .grl-contact__panel { animation: grl-contact-in .25s ease-out; }
+@keyframes grl-contact-in {
+	from { opacity: 0; transform: translateY(16px); }
+	to { opacity: 1; transform: none; }
+}
+html.grl-contact-open,
+html.grl-contact-open body { overflow: hidden; }
+
+.grl-contact__close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var(--grl-black);
+	cursor: pointer;
+	transition: background-color .2s ease;
+}
+.grl-contact__close:hover { background: var(--grl-bg); }
+.grl-contact__close:focus-visible { outline: 2px solid var(--grl-black); outline-offset: 0; }
+.grl-contact__close-icon,
+.grl-contact__close-icon::before {
+	display: block;
+	width: 22px;
+	height: 2px;
+	background: currentColor;
+	transform: rotate(45deg);
+}
+.grl-contact__close-icon::before { content: ""; transform: rotate(90deg); }
+
+.grl-contact__title {
+	padding-right: 40px;
+	font-family: var(--grl-font-display);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.2;
+}
+.grl-contact__intro,
+.grl-contact__fallback {
+	margin-top: 16px;
+	font-family: var(--grl-font-body);
+	font-size: 18px;
+	line-height: 32px;
+}
+.grl-contact__mail {
+	font-weight: 700;
+	text-decoration: none;
+	overflow-wrap: anywhere;
+	box-shadow: inset 0 -5px 0 0 var(--grl-bg);
+	transition: box-shadow .2s ease;
+}
+.grl-contact__mail:hover { box-shadow: inset 0 -22px 0 0 var(--grl-bg); }
+.grl-contact__form { margin-top: 32px; }
+
+/* Form layout (classes come from the CF7 form template). */
+.grl-cf7-row { margin-bottom: 20px; }
+.grl-cf7-row p { margin: 0; }
+.grl-cf7-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; }
+.grl-cf7-label {
+	display: block;
+	margin-bottom: 6px;
+	font-family: var(--grl-font-body);
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.4;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+}
+.grl-cf7-req { margin-left: 2px; }
+.grl-cf7-opt { font-weight: 400; letter-spacing: .05em; text-transform: none; }
+.grl-cf7-field {
+	display: block;
+	width: 100%;
+	padding: 11px 14px;
+	border: 2px solid var(--grl-bg);
+	border-radius: 0;
+	background: var(--grl-white);
+	color: var(--grl-black);
+	font-family: var(--grl-font-body);
+	font-size: 18px;
+	line-height: 1.5;
+	-webkit-appearance: none;
+	appearance: none;
+	transition: border-color .2s ease;
+}
+.grl-cf7-field--textarea { min-height: 140px; resize: vertical; }
+.grl-cf7-field:hover { border-color: #a99f97; }
+.grl-cf7-field:focus { border-color: var(--grl-black); outline: 2px solid var(--grl-black); outline-offset: 0; }
+
+.grl-cf7-actions { margin-top: 32px; }
+/* Same geometry and motion as .grl-btn-frame / .grl-btn (main.css), beige variant. */
+.grl-cf7-submit-frame { position: relative; display: inline-block; padding: 14px 7px 7px 14px; }
+.grl-cf7-submit-frame::before {
+	content: "";
+	position: absolute;
+	top: 11px;
+	left: 11px;
+	right: 4px;
+	bottom: 4px;
+	border: 3px solid var(--grl-bg);
+	border-radius: 3px;
+	box-shadow: 0 0 0 3px var(--grl-white);
+	pointer-events: none;
+}
+.grl-cf7-submit {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 200px;
+	margin: 0;
+	padding: 11px 32px 12px;
+	border: 3px solid var(--grl-bg);
+	border-radius: 0;
+	background: var(--grl-bg);
+	box-shadow: 0 0 0 3px var(--grl-white);
+	color: var(--grl-black);
+	font-family: var(--grl-font-body);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25.2px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	transform: translate(-8px, -8px);
+	transition: transform .2s cubic-bezier(.25, .46, .45, .94);
+}
+.grl-cf7-submit-frame:hover .grl-cf7-submit,
+.grl-cf7-submit:focus-visible { transform: translate(0, 0); }
+.grl-cf7-submit:focus-visible { outline: 2px solid var(--grl-black); outline-offset: 3px; }
+.grl-cf7-submit:disabled { cursor: progress; opacity: .7; }
+
+/* CF7 state only. */
+.grl-contact .grl-cf7-submit-frame .wpcf7-spinner {
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin: -12px 0 0 24px;
+	background-color: var(--grl-black);
+}
+.grl-contact .wpcf7-not-valid-tip {
+	margin-top: 6px;
+	color: var(--grl-contact-error);
+	font-family: var(--grl-font-body);
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+.grl-contact .grl-cf7-field.wpcf7-not-valid { border-color: var(--grl-contact-error); }
+.grl-contact .wpcf7 form .wpcf7-response-output {
+	margin: 28px 0 0;
+	padding: 12px 16px;
+	border: 0;
+	border-left: 4px solid var(--grl-black);
+	background: #f3f0ee;
+	font-family: var(--grl-font-body);
+	font-size: 16px;
+	line-height: 1.5;
+}
+.grl-contact .wpcf7 form.sent .wpcf7-response-output {
+	border-left-color: var(--grl-contact-ok);
+	background: #edf4ee;
+	color: #1f4a25;
+}
+.grl-contact .wpcf7 form.invalid .wpcf7-response-output,
+.grl-contact .wpcf7 form.unaccepted .wpcf7-response-output,
+.grl-contact .wpcf7 form.payment-required .wpcf7-response-output,
+.grl-contact .wpcf7 form.failed .wpcf7-response-output,
+.grl-contact .wpcf7 form.aborted .wpcf7-response-output,
+.grl-contact .wpcf7 form.spam .wpcf7-response-output {
+	border-left-color: var(--grl-contact-error);
+	background: #faeeee;
+	color: #6e1212;
+}
+
+@media (max-width: 991px) {
+	.grl-contact__title { font-size: 38px; }
+}
+
+/* Mobile: full-screen sheet. */
+@media (max-width: 767px) {
+	.grl-contact {
+		width: 100%;
+		height: 100%;
+		max-width: 100%;
+		max-height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.grl-contact::before { content: none; }
+	.grl-contact__panel {
+		height: 100%;
+		max-height: none;
+		padding: 64px var(--grl-pad-x) 40px;
+	}
+	.grl-contact__close { top: 10px; right: 10px; }
+	.grl-contact__title { font-size: 34px; padding-right: 0; }
+	.grl-contact__intro,
+	.grl-contact__fallback { font-size: 17px; line-height: 30px; }
+	.grl-contact__form { margin-top: 24px; }
+	.grl-cf7-grid { grid-template-columns: 1fr; }
+	.grl-cf7-actions .grl-cf7-submit-frame { display: block; }
+	.grl-cf7-submit { width: 100%; min-width: 0; }
+	.grl-contact .grl-cf7-submit-frame .wpcf7-spinner { left: 50%; top: 100%; margin: 20px 0 0 -12px; }
+}
+
+@media (max-width: 479px) {
+	.grl-contact__title { font-size: 30px; }
+	.grl-cf7-submit { font-size: 17px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.grl-cf7-submit { transition: none; }
+	.grl-cf7-submit-frame:hover .grl-cf7-submit,
+	.grl-cf7-submit:focus-visible { transform: translate(-8px, -8px); }
+}

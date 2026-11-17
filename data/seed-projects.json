@@ -1,0 +1,442 @@
+[
+ {
+  "et": {
+   "title": "MyHome veebileht",
+   "slug": "myhome-veebileht",
+   "excerpt": "Lõin kinnisvaraettevõttele veebilehe, mille eesmärk oli pakkumiste selge esitlemine ning kasutajasõbraliku ja loogilise struktuuri loomine. Fookuses oli lihtne navigeerimine, arusaadav sisu ja visuaalselt puhas lahendus, mis toetab nii müügi- kui üüriteenuste tutvustamist. Veebileht on üles ehitatud nii, et külastaja leiab kiiresti olulise info ning saab mugavalt liikuda pakkumiste ja kontaktivõimalusteni.",
+   "tags": [
+    "Veebilehe disain",
+    "CVI"
+   ],
+   "live": "https://www.figma.com/proto/jelmU8yFy52JVSLdS9dTvQ/MYHOME?page-id=8%3A3&node-id=244-344&viewport=191%2C292%2C0.16&t=UNZ23CA3gleatrTP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=387%3A4189",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e64d1aa19d5bd4a1d801b_MyHome%20avalhele.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e6afa9c0b2154bb725370_MYHOME%20esileht-2.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "MyHome website",
+   "slug": "myhome-website",
+   "excerpt": "I created a website for a real estate company with the goal of clearly presenting property listings and building a user-friendly, logical structure. The focus was on simple navigation, clear content, and a visually clean solution that supports both sales and rental services. The website is structured so that visitors can quickly find essential information and easily navigate to listings and contact options.",
+   "tags": [
+    "Website design",
+    "CVI"
+   ],
+   "live": "https://www.figma.com/proto/jelmU8yFy52JVSLdS9dTvQ/MYHOME?page-id=8%3A3&node-id=244-344&viewport=191%2C292%2C0.16&t=UNZ23CA3gleatrTP-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=387%3A4189",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e64d1aa19d5bd4a1d801b_MyHome%20avalhele.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e6afa9c0b2154bb725370_MYHOME%20esileht-2.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Edukas E-äri veebileht",
+   "slug": "edukas-e-ari-veebileht",
+   "excerpt": "Lõin veebilehe ettevõtjale, kes alustas mastermind-programmiga. Töö hõlmas selge ja arusaadava veebilehe loomist, mille eesmärk oli mastermind-i programmi tutvustamine ning huvilistele vajaliku info edastamine. Lisaks veebilehele aitasin koostada praktilise checklisti, mida klient saab kasutada oma klientidega suhtlemisel ja programmi ettevalmistamisel.",
+   "tags": [
+    "Veebilehe disain",
+    "Logo",
+    "Checklisti loomine"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e5fa29c0b2154bb6f1275_Edukas%20e-a%CC%88ri%20avalhele.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e602f526394157de44369_Edukas%20e-ri%20veebileht.png",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e60fc13121853d1d7f434_Edukas%20e-a%CC%88ri%20lisa.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Edukas E-äri website",
+   "slug": "edukas-e-ari-website",
+   "excerpt": "I created a website for an entrepreneur who was launching a mastermind program. The work included designing a clear and easy-to-understand website aimed at presenting the mastermind program and providing essential information to potential participants. In addition to the website, I also helped create a practical checklist that the client can use when communicating with their own clients and preparing the program.",
+   "tags": [
+    "Website design",
+    "Logo",
+    "Cheklist"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e5fa29c0b2154bb6f1275_Edukas%20e-a%CC%88ri%20avalhele.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e602f526394157de44369_Edukas%20e-ri%20veebileht.png",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/696e60fc13121853d1d7f434_Edukas%20e-a%CC%88ri%20lisa.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "TraynMe veebileht",
+   "slug": "traynme-veebileht",
+   "excerpt": "Disaini eesmärk oli veebilehe ümberkujundamine kaasaegsemaks. Veebileht on disainitud atraktiivsemaks ja dünaamilisemaks.",
+   "tags": [
+    "Veebilehe disain",
+    "Ümberkujundamine",
+    "UI/UX disain"
+   ],
+   "live": "https://www.figma.com/proto/gI92qy5VwWLM4gRkhtgX9P/Trayn.me-wirefarme'id?page-id=0%3A1&node-id=2001-573&node-type=FRAME&viewport=136%2C186%2C0.11&t=9ceTE1YmJHntnTLL-1&scaling=min-zoom&content-scaling=fixed",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6b77e3964c1900f638119_Trayn.me%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6bf7142677adc23785700_Trayn.me_home-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "TraynMe website",
+   "slug": "traynme-website",
+   "excerpt": "The purpose of the redesign was to transform the website into a more modern look. The website is designed to be more attractive and dynamic.",
+   "tags": [
+    "Website design",
+    "Redesign",
+    "UI/UX"
+   ],
+   "live": "https://www.figma.com/proto/gI92qy5VwWLM4gRkhtgX9P/Trayn.me-wirefarme'id?page-id=0%3A1&node-id=2001-573&node-type=FRAME&viewport=136%2C186%2C0.11&t=9ceTE1YmJHntnTLL-1&scaling=min-zoom&content-scaling=fixed",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6b77e3964c1900f638119_Trayn.me%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6bf7142677adc23785700_Trayn.me_home-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Psühhoterapeudi veebileht",
+   "slug": "psuhhoterapeudi-veebileht",
+   "excerpt": "Veebilehe ja CVI disain psühhoterapeudile. Disainitud on veebilehe päeva ja öö versioon.",
+   "tags": [
+    "Veebilehe disain",
+    "Päeva ja öö versioon",
+    "CVI"
+   ],
+   "live": "https://www.figma.com/proto/KtL1PusEH8KukA4q6OLK2w/Karina-Karis?page-id=3%3A72&node-id=3-73&node-type=FRAME&viewport=301%2C106%2C0.09&t=sntjfdJlEP246cf7-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3%3A73",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6b72a2357ea2df5f412e8_Karina%20Karis%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6c50153016a065a925ca5_Karina%20karis-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Psychotherapist's website",
+   "slug": "psychotherapists-website",
+   "excerpt": "Website and CVI design for a psychotherapist. A day and night version of the website has been designed.",
+   "tags": [
+    "Website design",
+    "Day and Night design",
+    "CVI"
+   ],
+   "live": "https://www.figma.com/proto/KtL1PusEH8KukA4q6OLK2w/Karina-Karis?page-id=3%3A72&node-id=3-73&node-type=FRAME&viewport=301%2C106%2C0.09&t=sntjfdJlEP246cf7-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3%3A73",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6b72a2357ea2df5f412e8_Karina%20Karis%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6c50153016a065a925ca5_Karina%20karis-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Fisiobrit veebileht",
+   "slug": "fisiobrit-veebileht",
+   "excerpt": "Veebilehe kujundus füsioteraapia teenusepakkujale. Veel on kujundatud CVI, logo ja turundusvisuaalid sotsiaalmeedia postitusteks.",
+   "tags": [
+    "Veebilehe disain",
+    "CVI",
+    "Logo"
+   ],
+   "live": "https://www.figma.com/proto/IH7xY0ruIORWoKufuVcVEn/Ann-Brit-f%C3%BCsioterapeut?page-id=0%3A1&type=design&node-id=58-387&viewport=205%2C66%2C0.14&t=AecxVOfH6nJwscZh-1&scaling=min-zoom&starting-point-node-id=58%3A387&mode=design",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/65d60132928ebdfaa204bef9_Fisiobrit%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6bee505bb501d99bb4bf4_Ann%20brit%20fu%CC%88sioterapeut-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Fisiobrit website",
+   "slug": "fisiobrit-website",
+   "excerpt": "Web design for a physiotherapy service provider. Also designed CVI, logo and marketing visuals for social media posts.",
+   "tags": [
+    "Website design",
+    "CVI",
+    "Logo design"
+   ],
+   "live": "https://www.figma.com/proto/IH7xY0ruIORWoKufuVcVEn/Ann-Brit-f%C3%BCsioterapeut?page-id=0%3A1&type=design&node-id=58-387&viewport=205%2C66%2C0.14&t=AecxVOfH6nJwscZh-1&scaling=min-zoom&starting-point-node-id=58%3A387&mode=design",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/65d60132928ebdfaa204bef9_Fisiobrit%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/66d6bee505bb501d99bb4bf4_Ann%20brit%20fu%CC%88sioterapeut-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Oliivõlide veebileht",
+   "slug": "oliiv-eu-veebileht",
+   "excerpt": "Veebilehe kujundus oliivõlide e-poele. Eesmärk oli teha atraktiivne aga samas lihtne veebilehe disain.",
+   "tags": [
+    "Veebilehe disain"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/65d5f9a1a84440f29de40517_Oliiv.eu%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/65d5f9713a8e1b5f2220adf0_Oliiv.EU-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Olive oil website",
+   "slug": "oliiv-eu-website",
+   "excerpt": "Web design for an olive oil e-commerce website. The goal was to create an attractive yet simple website design.",
+   "tags": [
+    "Website design"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/65d5f9a1a84440f29de40517_Oliiv.eu%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/65d5f9713a8e1b5f2220adf0_Oliiv.EU-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "ConfereLAW veebileht",
+   "slug": "conferelaw-veebileht",
+   "excerpt": "Veebilehe kujundus advokaadibüroole. Samuti disainitud logo, visiitkaardid, dokumendivisuaalid ja turundusvisuaalid sotsiaalmeedia postitusteks.",
+   "tags": [
+    "Veebilehe disain",
+    "Logo",
+    "Turundus visuaalid"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f8a05659c178e3679d2712_conferelaw%20thumbnail-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f8a15f4518556768c023ef_Conferelaw-min.jpg",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64144fd2982f874c8d4cb18f_confere%20visiitkaardid%20jne-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "ConfereLAW website",
+   "slug": "conferelaw-website",
+   "excerpt": "Designed full website for an Estonian Law firm. Also designed the logo, business cards, document visuals and marketing visuals for social media posts.",
+   "tags": [
+    "Website design",
+    "Logo",
+    "Marketing visuals"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f8a05659c178e3679d2712_conferelaw%20thumbnail-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f8a15f4518556768c023ef_Conferelaw-min.jpg",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64144fd2982f874c8d4cb18f_confere%20visiitkaardid%20jne-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Network veebileht",
+   "slug": "network-veebileht",
+   "excerpt": "Veebilehe kujundus ja selle koostamine koostöö platvormi jaoks õppeprojekti raames. Veebilehel on disainitud ka ilus blogi. Veebileht on arendatud Webflow's.",
+   "tags": [
+    "Veebilehe disain",
+    "Veebilehe arendus Webflows",
+    "Õppeprojekt"
+   ],
+   "live": "https://network-team-app.webflow.io/",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f5189f24668a44571a363b_network%20thumbnail-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f517a2a508db3424d1d69b_Network%20website-min.jpg",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Network website",
+   "slug": "network-website",
+   "excerpt": "Full website design and build for a concept team collaboration platform. This website also includes a beautiful blog. I have built the website and the blog in Webflow.",
+   "tags": [
+    "Website Design",
+    "Webflow Development",
+    "Concept"
+   ],
+   "live": "https://network-team-app.webflow.io/",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f5189f24668a44571a363b_network%20thumbnail-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f517a2a508db3424d1d69b_Network%20website-min.jpg",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Chat App veebileht",
+   "slug": "chat-app-veebileht",
+   "excerpt": "Õppeprojekti raames loodud veebileht vestlusrakenduse jaoks. Kõigepealt disainitud leht ja seejärel arendatud veebileht Webflow's.",
+   "tags": [
+    "Veebilehe disain",
+    "Veebilehe arendus Webflows",
+    "Õppeprojekt"
+   ],
+   "live": "https://chat-app-concept-leht.webflow.io/",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f51892c7237eda41f32b87_Chat%20App%20thumbnail-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f517b546401c0c2e877a75_Chat%20app-min.jpg",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/641444cd24cfc228fcfa54f7_Chat%20App%20visiitkaardid%20jne-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Chat App website",
+   "slug": "chat-app-website",
+   "excerpt": "This is a homepage design and build for a concept project – a chat application. I designed the page first, then built a responsive website using Webflow.",
+   "tags": [
+    "Website Design",
+    "Webflow Development",
+    "Concept"
+   ],
+   "live": "https://chat-app-concept-leht.webflow.io/",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f51892c7237eda41f32b87_Chat%20App%20thumbnail-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/63f517b546401c0c2e877a75_Chat%20app-min.jpg",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/641444cd24cfc228fcfa54f7_Chat%20App%20visiitkaardid%20jne-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Dating veebileht",
+   "slug": "dating-veebileht",
+   "excerpt": "Dating veebilehe kujundamine, millele on lisaks disainitud chat akna suhtlemise lehekülg. Veebilehe eesmärk oli pilditeta tutvumise saidi loomine.",
+   "tags": [
+    "Veebilehe disain",
+    "Chat akna disain"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/647092e56b25b30b3bd74514_Dating%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/647092ee2718a7b0dd1e2603_Dating-min.png",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/647092f66bdce5668c9b85e2_Dating%20lisa-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Dating website",
+   "slug": "dating-website",
+   "excerpt": "A dating website design, which also has a designed chat window page. The purpose of the website was to create a dating site without pictures.",
+   "tags": [
+    "Website design",
+    "Chat design"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/647092e56b25b30b3bd74514_Dating%20avalhele-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/647092ee2718a7b0dd1e2603_Dating-min.png",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/647092f66bdce5668c9b85e2_Dating%20lisa-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Kassidkoerad postitused",
+   "slug": "kassidkoerad",
+   "excerpt": "Disainitud Kassidkoerad lemmikloomapoe jaoks sotsiaalmeedia postitused, bännerid, visiitkaardid.",
+   "tags": [
+    "Turundus visuaalid"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/6411b8098258dc8dfbc68cf7_kassidkoerad%20insta-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/6411b6bbc7d78009aec1dbd5_kassidkoerad.ee-min.png",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64144d7f447524137e8d7a59_Kassidkoerad%20visiitkaardid%20jne-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "Kassidkoerad posts",
+   "slug": "kassidkoerad-posts",
+   "excerpt": "Marketing visuals for Estonian pet shop Kassidkoerad. Designed social media posts, banners, business cards.",
+   "tags": [
+    "Marketing visuals"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/6411b8098258dc8dfbc68cf7_kassidkoerad%20insta-min.jpg",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/6411b6bbc7d78009aec1dbd5_kassidkoerad.ee-min.png",
+   "gallery": [
+    "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64144d7f447524137e8d7a59_Kassidkoerad%20visiitkaardid%20jne-min.png"
+   ],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ },
+ {
+  "et": {
+   "title": "Teisi projekte",
+   "slug": "teisi-projekte",
+   "excerpt": "Erinevate bännerite, logode ja sotsiaalmeedia postituste disain.",
+   "tags": [
+    "Logo disain",
+    "Bännerite disain",
+    "Sotsiaalmeedia postituste disain"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64ff31309f756b7f1362d8b2_Teisi%20projekte-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64ff33bd3fcdefaebf7d0dd5_Eesti%20keeles-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  },
+  "en": {
+   "title": "More projects",
+   "slug": "more-projects",
+   "excerpt": "Various banners, logos, web design and social media posts design.",
+   "tags": [
+    "Logo design",
+    "Banner design",
+    "Social Media post design"
+   ],
+   "live": "",
+   "link_label": "",
+   "thumb": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64ff30d14de75d7cf9d384c0_Other%20projects-min.png",
+   "screen": "https://cdn.prod.website-files.com/63f372ae49b46ced17d2014b/64ff33aa261013c7e50e0335_inglise%20keeles-min.png",
+   "gallery": [],
+   "show_home": true,
+   "eyebrow": ""
+  }
+ }
+]

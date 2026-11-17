@@ -1,0 +1,79 @@
+/* Legal pages (privacy and cookie policy) and the footer policy links. */
+
+/* Footer policy links: same size and colour as the copyright text (inherited). */
+.grl-footer__links a {
+	text-underline-offset: 3px;
+	transition: color .2s ease;
+}
+.grl-footer__links a:hover,
+.grl-footer__links a:focus-visible {
+	color: var(--grl-white);
+	text-decoration: underline;
+}
+.grl-footer__links a:focus-visible {
+	outline: 2px solid var(--grl-black); /* black reads better than white on the warm grey footer */
+	outline-offset: 3px;
+	border-radius: 2px;
+}
+
+/* Keep the copyright line and policy links clear of the cookie plugin's floating badge
+   (fixed, bottom corner, up to 72px high) when the page is scrolled to the very end. */
+body:has(#ncc-revisit:not([hidden])) .grl-footer__bottom { padding-bottom: 88px; }
+
+/* "Change cookie settings" button inside policy content.
+   Hidden until assets/js/legal.js confirms the consent dialog exists. */
+.grl-consent-open { display: none; }
+.grl-consent-open.is-ready {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	padding: 10px 22px;
+	border: 1px solid var(--grl-black);
+	border-radius: 0;
+	background: transparent;
+	color: var(--grl-black);
+	font-family: var(--grl-font-ui);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.4;
+	cursor: pointer;
+	transition: background-color .2s ease, color .2s ease;
+}
+.grl-consent-open.is-ready:hover,
+.grl-consent-open.is-ready:focus-visible {
+	background: var(--grl-black);
+	color: var(--grl-white);
+}
+
+/* Policy tables: keep long cookie names readable on phones. */
+.grl-page__content .grl-cookie-table td:first-child { white-space: nowrap; }
+.grl-page__content .grl-cookie-table code { font-size: 15px; }
+
+/* Long single-word titles ("Privaatsuspoliitika") must not cause horizontal scroll on phones. */
+.grl-page__title { overflow-wrap: break-word; }
+
+@media (max-width: 479px) {
+	.grl-page__title { font-size: 38px; }
+}
+
+@media (max-width: 767px) {
+	/* The table scrolls sideways inside its own wrapper (main.css), never the page. */
+	.grl-page__content .grl-cookie-table table { min-width: 640px; font-size: 15px; }
+	.grl-page__content .grl-cookie-table code { font-size: 14px; }
+	.grl-page__content .grl-cookie-table th,
+	.grl-page__content .grl-cookie-table td { padding: 10px; }
+}
+
+/* Nimini Cookie Consent: match the theme (square corners, Lato). Colours are set in the plugin settings. */
+#ncc-root {
+	--ncc-radius: 0;
+	font-family: var(--grl-font-body);
+}
+#ncc-root .ncc-btn,
+#ncc-root button.ncc-btn { border-radius: 0; }
+#ncc-root .ncc-banner__message a,
+#ncc-root .ncc-banner__message a:visited,
+#ncc-root .ncc-policy-link,
+#ncc-root .ncc-policy-link:visited { color: var(--grl-black) !important; }
+#ncc-root .ncc-banner__message a:hover,
+#ncc-root .ncc-policy-link:hover { color: var(--grl-black) !important; text-decoration: none; }
